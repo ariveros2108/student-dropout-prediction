@@ -1,0 +1,21 @@
+[project]
+name = "student-dropout-prediction"
+version = "0.1.0"
+description = "Predicción de deserción estudiantil - ML Zoomcamp 2026 midterm"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "fastapi",
+    "numpy==2.4.6",
+    "pandas==3.0.5",
+    "scikit-learn==1.9.1",
+    "uvicorn",
+    "xgboost",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter",
+    "matplotlib",
+    "requests",
+    "seaborn",
+]
