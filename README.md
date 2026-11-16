@@ -107,8 +107,3 @@ Then run `uv run python test.py` again, or use http://localhost:9696/docs.
 
 `GET /health` — returns `{"status": "ok"}`.
 
-## Deployment
-
-The service runs in Docker locally. Screenshot of the service responding:
-
-![Service running in Docker](images/docker_predict.png)
